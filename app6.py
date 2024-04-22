@@ -5,9 +5,7 @@ from PIL import Image
 import torch
 import time
 import numpy as np
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+
 
 st.set_page_config(layout="wide")
 
