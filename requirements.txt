@@ -1,8 +1,0 @@
-streamlit
-pandas
-numpy 
-wget
-cv2
-PIL
-torch
-glob
