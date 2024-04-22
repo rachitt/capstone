@@ -6,6 +6,7 @@ import torch
 import time
 import numpy as np
 import pathlib
+import os
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
