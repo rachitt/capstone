@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy 
+wget
+os
+cv2
+PIL
+torch
+glob
