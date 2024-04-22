@@ -198,9 +198,8 @@ def main():
         st.sidebar.text(cfg_model_path.split("/")[-1])
         st.sidebar.markdown("---")
 
-    if not os.path.isfile(cfg_model_path):
-        st.warning("Model file not available!!!, please added to the model folder.")
-    else:
+    
+   
         if torch.cuda.is_available():
             device_option = st.sidebar.radio("Select Device", ['cpu', 'cuda'], disabled=False, index=0)
         else:
